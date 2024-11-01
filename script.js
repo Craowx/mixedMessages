@@ -11,4 +11,4 @@ const messages = [ //Messages array
                     'Anything is possible with sunshine and a little pink.'
                 ];
 
-console.log(messages[Math.floor(Math.random() * 10)]); //Randomize number and multiply by 10 to access random index
+console.log('Quote of the day: ' + messages[Math.floor(Math.random() * 10)]); //Randomize number and multiply by 10 to access random index
